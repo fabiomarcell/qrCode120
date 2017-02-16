@@ -9,7 +9,7 @@ while($x != 120){
 }
 
 $x = 1;
-while(x != 120){
+while($x != 120){
 	echo '<img src="QR_code'.$x.'.png">';
 	$x++;
 }
