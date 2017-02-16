@@ -16,7 +16,7 @@ echo "<div class='container'><div class='row'>";
 while($x <= 120){
 	QRcode::png("Seu Número da Sorte: ".$x, "QR_code".$x.".png", QR_ECLEVEL_H , 4); 
 
-	echo '<div class="col-md-3 col-sm-3 col-xs-3" style="text-align:center;"><img src="QR_code'.$x.'.png">';
+	echo '<div class="col-md-3 col-sm-4 col-xs-4" style="text-align:center;"><img src="QR_code'.$x.'.png">';
 	echo "<br>";
 	echo "<p>Utilize um leitor de QRCode para saber seu número da sorte! =)</p>";
 	echo '</div>';
