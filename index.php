@@ -1,6 +1,6 @@
 <?php
 include('phpqrcode/qrlib.php');
-QRcode::png("http://www.botecodigital.info", "QR_code.png", QR_ECLEVEL_H , 4); 
+QRcode::png("http://www.botecodigital.info", "QR_code.png"); 
 echo "Foo";
 ?>
 <img src="QR_code.png">
