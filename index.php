@@ -12,7 +12,7 @@ while($x <= 120){
 
 $x = 1;
 while($x <= 120){
-	echo '<div class="col-md-3><img src="QR_code'.$x.'.png">';
+	echo '<div class="col-md-3"><img src="QR_code'.$x.'.png">';
 	echo $x;
 	echo '</div>';
 	$x++;
