@@ -14,7 +14,7 @@ include('phpqrcode/qrlib.php');
 
 $x = 1;
 echo "<div class='container'><div class='row'>";
-while($x <= 120){
+while($x <= 150){
 	QRcode::png("Seu Número da Sorte: ".$x, "QR_code".$x.".png", QR_ECLEVEL_H , 4); 
 
 	echo '<div class="col-md-3 col-sm-4 col-xs-4" style="text-align:center;"><img src="QR_code'.$x.'.png">';
