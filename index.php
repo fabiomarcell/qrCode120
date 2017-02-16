@@ -3,6 +3,7 @@
 @media print {
   [class*="col-sm-"] {
     float: left;
+    height:25%;
   }
 }
 </style>
