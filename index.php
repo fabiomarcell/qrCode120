@@ -19,7 +19,7 @@ while($x <= 150){
 
 	echo '<div class="col-md-3 col-sm-4 col-xs-4" style="text-align:center;"><img src="QR_code'.$x.'.png">';
 	echo "<br>";
-	echo "<p>Utilize um leitor de QRCode para saber seu número da sorte! =)</p>";
+	echo "<p>Escaneie com um leitor de QRCode para descobrir seu número da sorte, e concorrer a uma camisa da hora =)</p>";
 	echo '</div>';
 	$x++;
 
